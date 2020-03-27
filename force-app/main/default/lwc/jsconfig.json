@@ -1,0 +1,47 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/carSearchForm": [
+                "carSearchForm/carSearchForm.js"
+            ],
+            "c/carSearch": [
+                "carSearch/carSearch.js"
+            ],
+            "c/carSearchResult": [
+                "carSearchResult/carSearchResult.js"
+            ],
+            "c/carTile": [
+                "carTile/carTile.js"
+            ],
+            "c/carDetails": [
+                "carDetails/carDetails.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/carDetail": [
+                "carDetail/carDetail.js"
+            ],
+            "c/addCarExperience": [
+                "addCarExperience/addCarExperience.js"
+            ],
+            "c/carExperiences": [
+                "carExperiences/carExperiences.js"
+            ],
+            "c/carLocation": [
+                "carLocation/carLocation.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
