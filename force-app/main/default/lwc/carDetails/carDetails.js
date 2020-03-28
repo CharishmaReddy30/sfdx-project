@@ -57,11 +57,14 @@ export default class CarDetails extends LightningElement {
             return true;
         }
         return false;
+
     }
 
     experienceAddedHandler() {
-        const component = this.template.querySelector('c-car-experiences');
-        component.getExperiencesFromController();
+        const carExperienceComponent = this.template.querySelector('c-car-experiences');
+        if (carExperienceComponent) {
+            carExperienceComponent.getExperiencesFromController();
+        }
         this.selectedTabValue = 'viewexperience';
     }
 }
