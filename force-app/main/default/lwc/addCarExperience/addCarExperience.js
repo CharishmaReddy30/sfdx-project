@@ -14,6 +14,10 @@ export default class AddCarExperience extends LightningElement {
     handleTitleChange(event) {
         this.expTitle = event.target.value;
     }
+    
+    connectedCallback(){
+        
+    }
 
     handleDescriptionChange(event) {
         this.expDescription = event.target.value;
